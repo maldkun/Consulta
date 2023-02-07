@@ -1,26 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Contact</title>
 </head>
 <body>
-    <a href="resume.html">Back</a>
-    <h1>Send email</h1>
+    <nav class="navbar">
+        <a href="resume.html" class="leftbtn">Resume</a>
+        <ul class="navmenu">
+            <li class="navitem">
+                <a href="https://github.com/maldkun" class="links"> <i class="fa-brands fa-github"></i> GitHub</a>
+            </li>
+            <li class="navitem">
+                <a href="https://www.facebook.com/matmat.consulta/" class="links"> <i class="fa-brands fa-facebook"></i> Facebook</a>
+            </li>
+        </ul>
+    </nav>
     <form>
-    Name: <input type="text" name="name" placeholder="Enter Name"/>
+    <h1><i class="fa-solid fa-envelope"></i> Send email</h1>
+    Name: 
     <br />
-    Email: <input type="email" name="email" placeholder="Enter Email"/>
+    <input type="text" class="container" name="name" placeholder="Enter Name"/>
     <br />
-    Message: <textarea name="text" cols="25" rows="10" placeholder="Message"></textarea>
+    Email: 
     <br />
-    <Input type="submit" name="submit" value="Submit" />
+    <input type="email" class="container" name="email" placeholder="Enter Email"/>
+    <br />
+    Message: 
+    <br />
+    <textarea class="container" name="text" cols="25" rows="10" placeholder="Message"></textarea>
+    <br />
+    <Input type="submit" name="submit" value="Submit" /> 
     <Input type="reset" name="reset" value="Reset"/>
     </form>
-    <br />
-    <a href="https://github.com/maldkun">GitHub</a>
 </body>
 </html>
